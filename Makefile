@@ -1,12 +1,11 @@
 SHELL := /bin/bash
 BIN = $(shell yarn bin)
 
-all: test build
+all: test_lint build
 .PHONY: all
 
-build: test
+build: test_lint
 	yarn build
 
-test:
-	yarn test
-	
+test_lint:
+	yarn lint & yarn test
