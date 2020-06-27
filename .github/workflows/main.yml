@@ -27,5 +27,12 @@ jobs:
           restore-keys: |
             nodeModules-
 
+      - name: Set the branch name
+        id: branch
+        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+
+      - name: Echo branch name
+        run: echo ${{ steps.branch.outputs.short_ref }}
+
       - name: Run workflow
         run: make
