@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 BIN = $(shell yarn bin)
 
-all: install_deps test_lint build
+all: build
 .PHONY: all
 
 build: test_lint
