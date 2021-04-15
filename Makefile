@@ -8,7 +8,7 @@ build: test_lint
 	yarn build
 
 test_lint: install_deps
-	yarn lint & yarn test
+	yarn test
 
 install_deps:
 	yarn --frozen-lockfile
