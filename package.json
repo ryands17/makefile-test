@@ -1,5 +1,5 @@
 {
-  "name": "testdir",
+  "name": "makefile-ts",
   "version": "1.0.0",
   "private": true,
   "description": "Sample Node app written in TypeScript to check how Makefile works",
@@ -17,21 +17,16 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.3",
-    "@types/node": "^14.0.14",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
-    "eslint": "^7.3.1",
-    "eslint-config-prettier": "^6.11.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.39",
     "husky": ">=4",
-    "jest": "^26.1.0",
-    "lint-staged": ">=10",
-    "prettier": "^2.0.5",
-    "ts-jest": "^26.1.1",
-    "typescript": "^3.9.5"
+    "jest": "^26.6.3",
+    "lint-staged": ">=10.5.4",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.4"
   },
   "prettier": {
-    "semi": false,
     "singleQuote": true,
     "arrowParens": "avoid"
   },
@@ -41,7 +36,6 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts}": "eslint --cache --fix",
-    "*.{js,ts,md}": "prettier --write"
+    "*.{js,ts,json,md}": "prettier --write"
   }
 }
