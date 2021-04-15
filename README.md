@@ -1,5 +1,5 @@
-# makefile-test
+# makefile-ts
 
 ![Build status](https://github.com/ryands17/makefile-test/workflows/CI/badge.svg)
 
-- Sample Node app written in TypeScript to check how Makefile works
+- Sample TypeScript app with Makefile a build step
