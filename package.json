@@ -18,10 +18,10 @@
     "@types/jest": "27.5.0",
     "@types/node": "16.11.33",
     "husky": "7.0.4",
-    "jest": "27.5.1",
+    "jest": "28.0.3",
     "lint-staged": "12.4.1",
     "prettier": "2.6.2",
-    "ts-jest": "27.1.4",
+    "ts-jest": "28.0.0",
     "typescript": "4.6.4"
   },
   "prettier": {
