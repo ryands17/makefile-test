@@ -22,7 +22,7 @@
     "lint-staged": "13.2.3",
     "prettier": "3.2.5",
     "ts-jest": "29.1.1",
-    "typescript": "5.4.3"
+    "typescript": "5.4.5"
   },
   "prettier": {
     "singleQuote": true,
